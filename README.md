@@ -12,6 +12,8 @@ Built with Microsoft Fabric (trial) to:
 ![Pipeline](Pipeline.png)
 
 ## Files
+MassiveReport1.pbix
+MassiveReport1.pdf
 
 
 ## Tools
