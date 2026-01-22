@@ -8,10 +8,10 @@ Built with Microsoft Fabric (trial capacity) to create an end-to-end, automated 
 - Interactive Power BI dashboard showing candlestick trends, latest price, daily % change, volume, and date slicers
 
 ## Automation
-The entire workflow runs **fully automated on a daily schedule** in Microsoft Fabric:
+The entire workflow runs **fully automated on a nonthly schedule** in Microsoft Fabric:
 
 1. **Scheduled Trigger**  
-   A recurring daily trigger (set in the pipeline editor) starts the process automatically every day.
+   A recurring Monthly trigger (set in the pipeline editor) starts the process automatically every day.
 
 2. **Data Ingestion**  
    The **Copy data** activity fetches the latest 30-day batch of AAPL daily bars directly from the Massive.com API (JSON format) and saves it as a raw file in the lakehouse Files section.
