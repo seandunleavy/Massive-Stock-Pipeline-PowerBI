@@ -36,3 +36,8 @@ The entire workflow runs **hands-free on a daily schedule** in Microsoft Fabric:
 
 Portfolio project by Sean Dunleavy  
 GitHub: https://github.com/seandunleavy/Massive-Stock-Pipeline-PowerBI
+
+## Notebooks in this repo
+- FlattenAAPLStock.ipynb – Flattens raw API JSON into daily rows
+- MassiveCleanUp.ipynb – Cleans, deduplicates, renames columns, appends to final table
+
